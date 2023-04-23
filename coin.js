@@ -26,7 +26,7 @@ if (marketButton !== null) {
     marketButton.addEventListener("click", handleSubmit);
 }
 
-function handleSubmit(event) {ㅡ
+function handleSubmit(event) {
     event.preventDefault();  // 폼 제출 기본 동작 중단
 
     const inputValue = document.querySelector('#input-market-name').value;  // 입력 필드 값 가져오기
